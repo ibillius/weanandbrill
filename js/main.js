@@ -1,13 +1,8 @@
 (function($){
   $(document).ready(function(){
-    var height = $('.wab_content').height();
-
-    console.log('Height: '+height);
-    $('#content-border').height(height);
-    //$('#content-border').width('940px');
-
+    $('#content-border').height($('.wab_content').outerHeight());
     $(window).resize(function(){
-        console.log($('.wab_content').height());
+        console.log("Outer Height: "+$('.wab_content').outerHeight());
         $('#content-border').height($('.wab_content').outerHeight());
     });
   });

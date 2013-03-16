@@ -15,11 +15,15 @@ body{
   padding-bottom: 5%;
 }
 
-.wab_header, .wab_content, .wab_footer{
+#header_image{
+  position: static;
+}
+
+.wab_content, .wab_footer{
   position: relative;
 }
 
-img.border-image{
+img.bg_image{
   height: auto;
   left: 0;
   position: absolute;
