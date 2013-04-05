@@ -1,9 +1,9 @@
 (function($){
-  $(document).ready(function(){
-    $('#content-border').height($('.wab_content').outerHeight());
+  $(window).load(function(){
+    $('#content-border').height($('#content_row').outerHeight(true));
     $(window).resize(function(){
-        console.log("Outer Height: "+$('.wab_content').outerHeight());
-        $('#content-border').height($('.wab_content').outerHeight());
+        console.log("Outer Height: "+$('#content_row').outerHeight(true));
+        $('#content-border').height($('#content_row').outerHeight(true));
     });
   });
 })(jQuery);
