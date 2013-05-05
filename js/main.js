@@ -8,10 +8,6 @@
     $('.wab_footer').height($('#footer_row').outerHeight(true));
     
     $(window).resize(function(){
-        /*
-         *$('#content-border').height($('#content_row').outerHeight(true));
-         *$('#header_image').height($('#header_row').outerHeight(true));
-         */
       $('#content-border').height($('#content_row').outerHeight(true));
       $('.wab_content').height($('#content_row').outerHeight(true));
       $('#header_image').height($('#header_row').outerHeight(true));
