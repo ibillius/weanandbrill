@@ -24,11 +24,27 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
+                <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div class="container center">
           <div class="row" id="header_row">
+            <noscript>
+              <style>
+                .bg_image{
+                  display: none;
+                }
+                body {
+                    padding-top: 0px;
+                    padding-bottom: 40px;
+                }
+              </style>
+              <div class="span12 js_warning">
+                <div class="content_padding">
+                  It looks like you have JavaScript disabled.  Enable JavaScript to get the full experience!
+                </div>
+             </div>
+            </noscript>
             <div class="span10  wab_header">
               <img src="img/wab_header.png" id="header_image" class="bg_image">
               <div class="content_padding">

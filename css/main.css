@@ -48,18 +48,12 @@ body{
   background-image:url('../img/paper_texture.jpg');
 }
 
-/*.span10{
-  background-image:url('../img/paper_texture_small.png'); 
-  background-repeat:repeat-y;
+.js_warning{
+  text-align: center; 
+  background-color: #FF0000; 
+  font-family: Arial; 
+  color: #FFFFFF;
 }
-*/
-
-/*.span10{
-  -webkit-box-shadow: 4px 5px 2px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:  4px 5px 2px rgba(50, 50, 50, 0.75);
-  box-shadow: 4px 5px 2px rgba(50, 50, 50, 0.75);
-}
-*/
 
 .content_padding{
   padding-left: 10%;
